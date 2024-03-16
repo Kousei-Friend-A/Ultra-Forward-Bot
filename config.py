@@ -9,13 +9,13 @@
 import os
 
 class Config:
-    API_ID = os.environ.get("API_ID", "")
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID = 8143727
+    API_HASH = "e2e9b22c6522465b62d8445840a526b1"
+    BOT_TOKEN = "5383246595:AAF7UYG-baggRelLuAATKQ6qPpANq_qJP6Q"
     BOT_SESSION = os.environ.get("BOT_SESSION", "forward-bot") 
-    DB_URL = os.environ.get("DB_URL", "")
-    DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
-    OWNER_ID = [int(id) for id in os.environ.get("OWNER_ID", '').split()]
+    DB_URL = "mongodb+srv://manudarkdevil911:manu1234@cluster0.alnwwhb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    DB_NAME = "forwardbot"
+    OWNER_ID = [int(id) for id in os.environ.get("OWNER_ID", '1813305809').split()]
 
 
 class temp(object): 
